@@ -22,24 +22,28 @@ header {
     border-bottom: 1px solid black;
     background-color:blue;
     color: white;
+    margin-bottom: 56px;
 }
 
 .conteudo {
     display: grid;
-    grid-template-rows: 70% 30%;
+    grid-template-columns: 70% 30%;
 }
 
 .destaque img {
-    max-width: 40%;
+    max-width: 400px;
 }
-
 .destaque .sobre a {
     display: flex;
     font-size: 20px;
 }
 
 .destaque .sobre img {
-margin-right: 8px;
+    margin-right: 8px;
+    }
+
+.destaque {
+    margin-bottom: 56px;
 }
 
 section h2 {
@@ -55,17 +59,25 @@ aside .destaque{
     margin-bottom: 24px;
 }
 
+.Bolsas img {
+    max-width: 200px;
+}
+
 .produto .sobre a {
     display: flex;
     font-size: 20px;
     float:left;
 }
 
-.produto .img {
-    margin-right: 8px;
+.artigos {
+    display: grid;
+    grid-template-columns: repeat(3, 32.6%);
+    column-gap: 1%;
+    row-gap: 5%;
 }
-article img {
-    max-width:20px ;
+
+.artigos .sobre img {
+    max-width: 200px;
 }
 
 .container li {
@@ -79,7 +91,6 @@ header nav li a {
     color: white;
     text-decoration: none;
 }
-
 
 
 
