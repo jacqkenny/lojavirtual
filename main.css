@@ -47,10 +47,23 @@ section h2 {
     margin-top: 32px;
 }
 
-aside img{
-    max-width: 100px;
+aside {
+    padding-left: 40px;
 }
 
+aside .destaque{
+    margin-bottom: 24px;
+}
+
+.produto .sobre a {
+    display: flex;
+    font-size: 20px;
+    float:left;
+}
+
+.produto .img {
+    margin-right: 8px;
+}
 article img {
     max-width:20px ;
 }
