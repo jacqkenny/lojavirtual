@@ -32,6 +32,7 @@ header {
 
 .destaque img {
     max-width: 400px;
+    height: auto;
 }
 .destaque .sobre a {
     display: flex;
@@ -40,6 +41,7 @@ header {
 
 .destaque .sobre img {
     margin-right: 8px;
+    height: auto;
     }
 
 .destaque {
@@ -61,6 +63,7 @@ aside .destaque{
 
 .Bolsas img {
     max-width: 250px;
+    height: auto;
 }
 
 .produto .sobre a {
@@ -78,6 +81,7 @@ aside .destaque{
 
 .artigos .sobre img {
     max-width: 200px;
+    height: auto;
 }
 
 .container li {
